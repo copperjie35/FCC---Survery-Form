@@ -1,0 +1,60 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<header></header>
+<main id="main">  
+  <section>
+    <h1 id="title">Survey Form Template</h1>
+    <p id="description">Please fill in this form.</p>
+    
+    <form id="survey-form">
+      <table>
+          <tr>        
+            <td><label id="name-label">Name</label></td>
+            <td><input 
+                  type="text" 
+                  id="name" 
+                  placeholder="Enter your name" 
+                  required>
+            </td>
+         </tr>
+         <tr>        
+            <td><label id="email-label">Email</label></td>
+            <td><input 
+                  type="email" 
+                  id="email" 
+                  placeholder="Enter email address" 
+                  required>
+           </td>
+          </tr>
+        <tr>        
+            <td><label id="number-label">Mobile No.</label></td>
+            <td><input 
+                 type="number" 
+                 min="1" 
+                 max="10" id="number"
+                 placeholder="Enter mobile number">
+            </td>
+        </tr>
+        <tr>
+          <td><label>Select one option</label></td>
+          <td>
+            <select 
+                id="dropdown"
+                name="role" 
+                required>
+              <option disabled selected value>Select ...</option>
+              <option value="opt1">Option 1</option>
+              <option value="opt2">Option 2</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Checkbox</td>
+          <td><input type"radio"></td>
+          <td></td>
+        </tr>
+      </table>
+    </form>
+  </section>
+ </main>
+<footer></footer>
